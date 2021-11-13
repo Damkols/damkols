@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #101011;
+}
+
+.App{
+    display: flex;
+    width: 85vw;
+    background: #101011;
+    height: 90vh;
+    margin: 25px auto 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav{
+        width: 45%;
+        background-color: #101011;
+        height: 90%;
+    }
+
+    .content{
+        width: 50%;
+        background: #101011;
+        height: 90%;
+    }
+}

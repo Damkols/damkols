@@ -1,0 +1,102 @@
+@import '../variable/variables';
+
+.navigation{
+    height: 10vh;
+    width: 100%;
+    background: #101011;
+    position: relative;
+}
+
+.nav-logo{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(-5%, -20%);
+    z-index: 1;
+}
+
+.logo{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+}
+
+.links-mobile{
+    display: flex;
+    background: #101011;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    clip-path: circle(100px at 1100px -10px);
+    -webkit-clip-path: circle(100px at 1100px -10px);
+    transition: 1s ease all;
+}
+
+.links-mobile .items-mobile{
+    margin-bottom: 35px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    color: $box-fontColor;
+}
+
+.links-mobile.active{
+    clip-path: circle(1200px at 300px -10px);
+    -webkit-clip-path: circle(1200px at 300px -10px);
+}
+
+.btn-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+
+    .btn-mobile-line{
+        height: 1.2px;
+        width: 35px;
+        background: #fff;
+        margin: 5px 0;
+        display: block;
+    }
+    .sm-line{
+        width: 25px;
+    }
+}
+
+
+.btn-mobile-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+
+    .btn-mobile-line-2{
+        height: 1.5px;
+        width: 25px;
+        background: #fff;
+        margin: 5px 0;
+        transition: transform .2s linear;
+    }
+
+    .sm-line1{
+        transform: rotate(45deg) translateY(7px);
+        position: relative;
+        top: 1px;
+    }
+    .sm-line2{
+        transform: rotate(-45deg) translateY(-7px);
+    }
+}
