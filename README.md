@@ -1,5 +1,5 @@
 # 💫 About Me:
-Knowledgeable and skilled software development professional offering advanced abilities in a wide range of programming<br>languages. Quickly understands requirements for new systems and creates robust code. Familiar with testing, debugging, and<br>correcting problems found in existing software.<br>-✉️  You can contact me at damolausmankolapo@gmail.com<br>-🧠  I'm learning Go-Ethereum and how to build blockchains with Go<br>- 🤝 I'm open to collaborating on frontend and web3 projects
+Knowledgeable and skilled software development professional offering advanced abilities in a wide range of programming<br>languages. Quickly understands requirements for new systems and creates robust code. Familiar with testing, debugging, and<br>correcting problems found in existing software.<br>-✉️  You can contact me at damkols35@gmail.com<br>-🧠  I'm learning Go-Ethereum and how to build blockchains with Go<br>- 🤝 I'm open to collaborating on frontend and web3 projects
 
 
 ## 🌐 Socials:
