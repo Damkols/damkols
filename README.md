@@ -1,1 +1,1 @@
-## Web3, Smart Contracts, Frontend Integration
+## Web3 || Smart Contracts || Frontend Integration
